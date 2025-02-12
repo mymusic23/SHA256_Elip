@@ -38,9 +38,11 @@ def J(x, y, z):
 def ripemd160(message):
     # Estados iniciais
     h0 = 0x67452301
-    h1 = 0xEFCDAB89
+    h1 = 0xEFCDAB89 
     h2 = 0x98BADCFE
     h3 = 0x10325476
+    #add
+
     h4 = 0xC3D2E1F0
 
     logger.debug("1. Preprocessamento: Padding da mensagem.")
